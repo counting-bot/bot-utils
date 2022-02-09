@@ -1,5 +1,5 @@
-import removeFormattingInport from './removeFormatting.mjs'
-export const removeFormatting = removeFormattingInport;
+import removeFormattingImport from './removeFormatting.mjs'
+export const removeFormatting = removeFormattingImport;
 
 import cpuLoad from './cpuLoad.mjs'
 export const avgCPUload = cpuLoad;
