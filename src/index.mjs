@@ -1,4 +1,4 @@
-import {removeFormatting as removeFormattingInport} from './removeFormatting.mjs'
+import {default as removeFormattingInport} from './removeFormatting.mjs'
 export const removeFormatting = removeFormattingInport;
 
 import {default as cpuLoad} from './cpuLoad.mjs'

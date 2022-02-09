@@ -1,4 +1,4 @@
-export const removeFormatting = (msgContent) => {
+export default (msgContent) => {
     // bold
     msgContent = msgContent.replace(/\*\*/g ,"")
     
