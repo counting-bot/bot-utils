@@ -9,5 +9,8 @@
   },
   "author": "numselli",
   "license": "MIT",
-  "homepage": "https://github.com/counting-bot/bot-utils#readme"
+  "homepage": "https://github.com/counting-bot/bot-utils#readme",
+  "dependencies": {
+    "os": "^0.1.2"
+  }
 }
