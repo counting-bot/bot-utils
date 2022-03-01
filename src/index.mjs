@@ -13,3 +13,6 @@ export const formatNumber = formatNumberImport;
 
 import formatScoreStringImport from './scoreFormatting.mjs'
 export const formatScoreString = formatScoreStringImport;
+
+import calculateAccuracyImport from './calculateAccuracy.mjs'
+export const calculateAccuracy = calculateAccuracyImport;
