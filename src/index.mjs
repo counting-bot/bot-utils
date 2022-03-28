@@ -1,18 +1,6 @@
-import removeFormattingImport from './removeFormatting.mjs'
-export const removeFormatting = removeFormattingImport;
-
-import cpuLoad from './cpuLoad.mjs'
-export const avgCPUload = cpuLoad;
-
-import formatTimeImport from './formatTime.mjs'
-export const formatTime = formatTimeImport;
-
-
-import formatNumberImport from './formatNumber.mjs'
-export const formatNumber = formatNumberImport;
-
-import formatScoreStringImport from './scoreFormatting.mjs'
-export const formatScoreString = formatScoreStringImport;
-
-import calculateAccuracyImport from './calculateAccuracy.mjs'
-export const calculateAccuracy = calculateAccuracyImport;
+export {defualt as removeFormatting} from './removeFormatting.mjs'
+export {defualt as avgCPUload} from './cpuLoad.mjs';
+export {defualt as formatTime} from './formatTime.mjs';
+export {defualt as formatNumber} from './formatNumber.mjs';
+export {defualt as formatScoreString} from './scoreFormatting.mjs';
+export {defualt as calculateAccuracy} from './calculateAccuracy.mjs';
