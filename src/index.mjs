@@ -4,3 +4,4 @@ export {defualt as formatTime} from './formatTime.mjs';
 export {defualt as formatNumber} from './formatNumber.mjs';
 export {defualt as formatScoreString} from './scoreFormatting.mjs';
 export {defualt as calculateAccuracy} from './calculateAccuracy.mjs';
+export {defualt as postBotStats} from './postBotStats.mjs';
