@@ -10,6 +10,6 @@ console.log(formatNumber("123456", true)) // 123,456
 
 console.log(formatScoreString(5, "numselli",  13681)) // **#6** numselli, **13,681**
 
-console.log(calculateAccuracy(217, 404)) // 0%
+console.log(calculateAccuracy(217, 404)) // 34.94%
 
-console.log(calculateAccuracy(13645, 143)) // 99.9%
+console.log(calculateAccuracy(13645, 143)) // 98.96%
