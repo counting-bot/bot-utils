@@ -1,3 +1,4 @@
+// stolen from https://github.com/Jakemate977/eris-components
 import EventEmitter from 'events';
 
 export default class ErisComponentsCollector extends EventEmitter {
