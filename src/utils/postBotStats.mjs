@@ -115,15 +115,6 @@ export default async settings => {
 				"bandwidth": "0", 
 				"active": [],
 			}
-		},
-		"disbots":{
-			"domain":"dsc.best",
-			"path":"api/v3/{clientid}/stats",
-			"method":"post",
-			"data": {
-				"server_count": settings.guilds ?? 0,
-				'shard_count': settings.shardCount ?? 0,
-			}
 		}
 	};
 
