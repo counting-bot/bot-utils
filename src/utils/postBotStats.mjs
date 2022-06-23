@@ -11,14 +11,6 @@ export default async settings => {
 				'shard_count': settings.shardCount ?? 0
 			}
 		},
-		'botlistspace': {
-			"domain":"api.discordlist.space",
-			"path":"v2/bots/{clientid}",
-			"method":"post",
-			"data":{
-				'serverCount': settings.guilds ?? 0,
-			}
-		},
 		'botsfordiscord': {
 			"domain":"discords.com",
 			"path":"api/bot/{clientid}",
